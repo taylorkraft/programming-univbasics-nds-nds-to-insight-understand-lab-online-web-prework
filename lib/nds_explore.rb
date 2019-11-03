@@ -10,4 +10,5 @@ def print_first_directors_movie_titles
   index = 0
   while index < directors_database.length do
     puts "\t #{movie_name}"
+    index +=1
 end
