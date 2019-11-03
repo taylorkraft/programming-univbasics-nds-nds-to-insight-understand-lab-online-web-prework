@@ -8,8 +8,8 @@ end
 
 def print_first_directors_movie_titles
   index = 0
-  while index < directors_database.length do
-     puts "#{[:name][index]}\n"
+  while index < directors_database[:movies].length do
+     puts "#{directors_database[:movies][index]}\n"
     index += 1
   end
 end
