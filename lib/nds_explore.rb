@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
   index = 0
   binding.pry
   while index < directors_database.length do
-    puts "\n #{movies}"
+    # puts "\n #{movies}"
     index += 1
   end
 end
